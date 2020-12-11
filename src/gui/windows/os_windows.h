@@ -72,7 +72,7 @@ void gui_init(int *argc, char **argv) {
 				//break;
 			case WIN_XP:
 			default:
-				SHGetFolderPathW(nullptr, CSIDL_PERSONAL, nullptr, 0, (LPWSTR)gui.home);
+				SHGetFolderPathW(nullptr, CSIDL_PROGRAMS, nullptr, 0, (LPWSTR)gui.home);
 				break;
 		}
 
