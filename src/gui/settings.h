@@ -1100,7 +1100,7 @@ static const _settings pgs_cfg[] = {
 		{0, NULL}
 	},
 	{
-		uL("system"), uL("ppu overclock"), uL("no"),
+		uL("system"), uL("ppu overclock"), uL("yes"),
 		uL("# possible values: yes, no"),
 		NULL,
 		{LENGTH(opt_no_yes), opt_no_yes}
@@ -1112,7 +1112,7 @@ static const _settings pgs_cfg[] = {
 		{LENGTH(opt_no_yes), opt_no_yes}
 	},
 	{
-		uL("system"), uL("extra vblank scanlines"), uL("0"),
+		uL("system"), uL("extra vblank scanlines"), uL("442"),
 		uL("# possible values: [0 - 1000]"),
 		NULL,
 		{0, NULL}
